@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8ECE2902F8C1858F98349AC /* Pods_Alamofire_BackendlessAPI_StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FE407FC673E4D97C09AD1B /* Pods_Alamofire_BackendlessAPI_StarWarsAPI.framework */; };
+		ED6B974A267E4FE00089220D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9749267E4FE00089220D /* AppDelegate.swift */; };
+		ED6B974C267E4FE00089220D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B974B267E4FE00089220D /* SceneDelegate.swift */; };
+		ED6B974E267E4FE00089220D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B974D267E4FE00089220D /* ViewController.swift */; };
+		ED6B9751267E4FE00089220D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6B974F267E4FE00089220D /* Main.storyboard */; };
+		ED6B9753267E4FE20089220D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6B9752267E4FE20089220D /* Assets.xcassets */; };
+		ED6B9756267E4FE20089220D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6B9754267E4FE20089220D /* LaunchScreen.storyboard */; };
+		ED6B9775267E50300089220D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9774267E50300089220D /* LoginModel.swift */; };
+		ED6B9777267E50410089220D /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9776267E50410089220D /* RegisterModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59FE407FC673E4D97C09AD1B /* Pods_Alamofire_BackendlessAPI_StarWarsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_BackendlessAPI_StarWarsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDCB30307368E5C588F6967 /* Pods-Alamofire-BackendlessAPI-StarWarsAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire-BackendlessAPI-StarWarsAPI.debug.xcconfig"; path = "Target Support Files/Pods-Alamofire-BackendlessAPI-StarWarsAPI/Pods-Alamofire-BackendlessAPI-StarWarsAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		E6B5B4D7D0208697757A551F /* Pods-Alamofire-BackendlessAPI-StarWarsAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire-BackendlessAPI-StarWarsAPI.release.xcconfig"; path = "Target Support Files/Pods-Alamofire-BackendlessAPI-StarWarsAPI/Pods-Alamofire-BackendlessAPI-StarWarsAPI.release.xcconfig"; sourceTree = "<group>"; };
+		ED6B9746267E4FE00089220D /* Alamofire-BackendlessAPI-StarWarsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire-BackendlessAPI-StarWarsAPI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6B9749267E4FE00089220D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6B974B267E4FE00089220D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED6B974D267E4FE00089220D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6B9750267E4FE00089220D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6B9752267E4FE20089220D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6B9755267E4FE20089220D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6B9757267E4FE20089220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6B9774267E50300089220D /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		ED6B9776267E50410089220D /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6B9743267E4FE00089220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ECE2902F8C1858F98349AC /* Pods_Alamofire_BackendlessAPI_StarWarsAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38986C7A71783B942A860296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59FE407FC673E4D97C09AD1B /* Pods_Alamofire_BackendlessAPI_StarWarsAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D20B023A12C406D49ED12184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EDCB30307368E5C588F6967 /* Pods-Alamofire-BackendlessAPI-StarWarsAPI.debug.xcconfig */,
+				E6B5B4D7D0208697757A551F /* Pods-Alamofire-BackendlessAPI-StarWarsAPI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED6B973D267E4FE00089220D = {
+			isa = PBXGroup;
+			children = (
+				ED6B9748267E4FE00089220D /* Alamofire-BackendlessAPI-StarWarsAPI */,
+				ED6B9747267E4FE00089220D /* Products */,
+				D20B023A12C406D49ED12184 /* Pods */,
+				38986C7A71783B942A860296 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6B9747267E4FE00089220D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B9746267E4FE00089220D /* Alamofire-BackendlessAPI-StarWarsAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6B9748267E4FE00089220D /* Alamofire-BackendlessAPI-StarWarsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B9773267E50200089220D /* ViewController */,
+				ED6B9772267E50180089220D /* Networking */,
+				ED6B975D267E4FEB0089220D /* Model */,
+				ED6B9749267E4FE00089220D /* AppDelegate.swift */,
+				ED6B974B267E4FE00089220D /* SceneDelegate.swift */,
+				ED6B974D267E4FE00089220D /* ViewController.swift */,
+				ED6B974F267E4FE00089220D /* Main.storyboard */,
+				ED6B9752267E4FE20089220D /* Assets.xcassets */,
+				ED6B9754267E4FE20089220D /* LaunchScreen.storyboard */,
+				ED6B9757267E4FE20089220D /* Info.plist */,
+			);
+			path = "Alamofire-BackendlessAPI-StarWarsAPI";
+			sourceTree = "<group>";
+		};
+		ED6B975D267E4FEB0089220D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B9774267E50300089220D /* LoginModel.swift */,
+				ED6B9776267E50410089220D /* RegisterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED6B9772267E50180089220D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		ED6B9773267E50200089220D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6B9745267E4FE00089220D /* Alamofire-BackendlessAPI-StarWarsAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6B975A267E4FE20089220D /* Build configuration list for PBXNativeTarget "Alamofire-BackendlessAPI-StarWarsAPI" */;
+			buildPhases = (
+				4010B684E298D0142F59AAE8 /* [CP] Check Pods Manifest.lock */,
+				ED6B9742267E4FE00089220D /* Sources */,
+				ED6B9743267E4FE00089220D /* Frameworks */,
+				ED6B9744267E4FE00089220D /* Resources */,
+				0EC2F6966A9AE58731EC44E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-BackendlessAPI-StarWarsAPI";
+			productName = "Alamofire-BackendlessAPI-StarWarsAPI";
+			productReference = ED6B9746267E4FE00089220D /* Alamofire-BackendlessAPI-StarWarsAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6B973E267E4FE00089220D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED6B9745267E4FE00089220D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = ED6B9741267E4FE00089220D /* Build configuration list for PBXProject "Alamofire-BackendlessAPI-StarWarsAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6B973D267E4FE00089220D;
+			productRefGroup = ED6B9747267E4FE00089220D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6B9745267E4FE00089220D /* Alamofire-BackendlessAPI-StarWarsAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6B9744267E4FE00089220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6B9756267E4FE20089220D /* LaunchScreen.storyboard in Resources */,
+				ED6B9753267E4FE20089220D /* Assets.xcassets in Resources */,
+				ED6B9751267E4FE00089220D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC2F6966A9AE58731EC44E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alamofire-BackendlessAPI-StarWarsAPI/Pods-Alamofire-BackendlessAPI-StarWarsAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alamofire-BackendlessAPI-StarWarsAPI/Pods-Alamofire-BackendlessAPI-StarWarsAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alamofire-BackendlessAPI-StarWarsAPI/Pods-Alamofire-BackendlessAPI-StarWarsAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4010B684E298D0142F59AAE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alamofire-BackendlessAPI-StarWarsAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6B9742267E4FE00089220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6B974E267E4FE00089220D /* ViewController.swift in Sources */,
+				ED6B9777267E50410089220D /* RegisterModel.swift in Sources */,
+				ED6B9775267E50300089220D /* LoginModel.swift in Sources */,
+				ED6B974A267E4FE00089220D /* AppDelegate.swift in Sources */,
+				ED6B974C267E4FE00089220D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED6B974F267E4FE00089220D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6B9750267E4FE00089220D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6B9754267E4FE20089220D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6B9755267E4FE20089220D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6B9758267E4FE20089220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6B9759267E4FE20089220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6B975B267E4FE20089220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDCB30307368E5C588F6967 /* Pods-Alamofire-BackendlessAPI-StarWarsAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QJBJ737X2;
+				INFOPLIST_FILE = "Alamofire-BackendlessAPI-StarWarsAPI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdulhalik.alamofire-Backendless.Alamofire-BackendlessAPI-StarWarsAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6B975C267E4FE20089220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B5B4D7D0208697757A551F /* Pods-Alamofire-BackendlessAPI-StarWarsAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QJBJ737X2;
+				INFOPLIST_FILE = "Alamofire-BackendlessAPI-StarWarsAPI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdulhalik.alamofire-Backendless.Alamofire-BackendlessAPI-StarWarsAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6B9741267E4FE00089220D /* Build configuration list for PBXProject "Alamofire-BackendlessAPI-StarWarsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6B9758267E4FE20089220D /* Debug */,
+				ED6B9759267E4FE20089220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6B975A267E4FE20089220D /* Build configuration list for PBXNativeTarget "Alamofire-BackendlessAPI-StarWarsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6B975B267E4FE20089220D /* Debug */,
+				ED6B975C267E4FE20089220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6B973E267E4FE00089220D /* Project object */;
+}
