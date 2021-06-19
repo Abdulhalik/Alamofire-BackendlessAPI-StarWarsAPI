@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,16 @@
 		ED6B9756267E4FE20089220D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6B9754267E4FE20089220D /* LaunchScreen.storyboard */; };
 		ED6B9775267E50300089220D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9774267E50300089220D /* LoginModel.swift */; };
 		ED6B9777267E50410089220D /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9776267E50410089220D /* RegisterModel.swift */; };
+		ED6B9779267E5BAC0089220D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9778267E5BAC0089220D /* APIManager.swift */; };
+		ED6B977B267E5BED0089220D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B977A267E5BED0089220D /* Constants.swift */; };
+		ED6B977D267E5C060089220D /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B977C267E5C060089220D /* UserPreferences.swift */; };
+		ED6B977F267E5C240089220D /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B977E267E5C240089220D /* Displayable.swift */; };
+		ED6B9781267E5C380089220D /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9780267E5C380089220D /* Film.swift */; };
+		ED6B9783267E5C4D0089220D /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9782267E5C4D0089220D /* Films.swift */; };
+		ED6B9785267E5C5F0089220D /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9784267E5C5F0089220D /* Starship.swift */; };
+		ED6B9787267E5C720089220D /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9786267E5C720089220D /* Starships.swift */; };
+		ED6B9789267E5CA20089220D /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9788267E5CA20089220D /* MainTableViewController.swift */; };
+		ED6B978B267E5CE00089220D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B978A267E5CE00089220D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,16 @@
 		ED6B9757267E4FE20089220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED6B9774267E50300089220D /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		ED6B9776267E50410089220D /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		ED6B9778267E5BAC0089220D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		ED6B977A267E5BED0089220D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED6B977C267E5C060089220D /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		ED6B977E267E5C240089220D /* Displayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displayable.swift; sourceTree = "<group>"; };
+		ED6B9780267E5C380089220D /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		ED6B9782267E5C4D0089220D /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		ED6B9784267E5C5F0089220D /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		ED6B9786267E5C720089220D /* Starships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
+		ED6B9788267E5CA20089220D /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		ED6B978A267E5CE00089220D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +80,6 @@
 				9EDCB30307368E5C588F6967 /* Pods-Alamofire-BackendlessAPI-StarWarsAPI.debug.xcconfig */,
 				E6B5B4D7D0208697757A551F /* Pods-Alamofire-BackendlessAPI-StarWarsAPI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -95,6 +114,8 @@
 				ED6B9752267E4FE20089220D /* Assets.xcassets */,
 				ED6B9754267E4FE20089220D /* LaunchScreen.storyboard */,
 				ED6B9757267E4FE20089220D /* Info.plist */,
+				ED6B977A267E5BED0089220D /* Constants.swift */,
+				ED6B977C267E5C060089220D /* UserPreferences.swift */,
 			);
 			path = "Alamofire-BackendlessAPI-StarWarsAPI";
 			sourceTree = "<group>";
@@ -104,6 +125,11 @@
 			children = (
 				ED6B9774267E50300089220D /* LoginModel.swift */,
 				ED6B9776267E50410089220D /* RegisterModel.swift */,
+				ED6B977E267E5C240089220D /* Displayable.swift */,
+				ED6B9780267E5C380089220D /* Film.swift */,
+				ED6B9782267E5C4D0089220D /* Films.swift */,
+				ED6B9784267E5C5F0089220D /* Starship.swift */,
+				ED6B9786267E5C720089220D /* Starships.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -111,6 +137,7 @@
 		ED6B9772267E50180089220D /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				ED6B9778267E5BAC0089220D /* APIManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -118,6 +145,8 @@
 		ED6B9773267E50200089220D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				ED6B9788267E5CA20089220D /* MainTableViewController.swift */,
+				ED6B978A267E5CE00089220D /* DetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -236,10 +265,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6B9783267E5C4D0089220D /* Films.swift in Sources */,
+				ED6B9779267E5BAC0089220D /* APIManager.swift in Sources */,
+				ED6B977D267E5C060089220D /* UserPreferences.swift in Sources */,
+				ED6B9785267E5C5F0089220D /* Starship.swift in Sources */,
 				ED6B974E267E4FE00089220D /* ViewController.swift in Sources */,
 				ED6B9777267E50410089220D /* RegisterModel.swift in Sources */,
+				ED6B9789267E5CA20089220D /* MainTableViewController.swift in Sources */,
 				ED6B9775267E50300089220D /* LoginModel.swift in Sources */,
+				ED6B9781267E5C380089220D /* Film.swift in Sources */,
+				ED6B977B267E5BED0089220D /* Constants.swift in Sources */,
+				ED6B9787267E5C720089220D /* Starships.swift in Sources */,
 				ED6B974A267E4FE00089220D /* AppDelegate.swift in Sources */,
+				ED6B978B267E5CE00089220D /* DetailViewController.swift in Sources */,
+				ED6B977F267E5C240089220D /* Displayable.swift in Sources */,
 				ED6B974C267E4FE00089220D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
