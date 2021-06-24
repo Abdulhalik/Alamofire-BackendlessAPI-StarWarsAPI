@@ -2,7 +2,7 @@
 //  MainTableViewController.swift
 //  Alamofire-BackendlessAPI-StarWarsAPI
 //
-//  Created by Desi Mac Book 1 on 19.06.2021.
+//  Created by Abdulhalik 1 on 19.06.2021.
 //
 
 import UIKit
@@ -34,6 +34,12 @@ class MainTableViewController: UITableViewController {
   
   @IBAction func didTapMenu() {
     //present(menu!, animated: true)
+    let isLoggedIn = UserDefaults.standard.bool(forKey: UserPreferences.IS_LOGGED_IN)
+    
+    if isLoggedIn {
+        UserDefaults.standard.set(false, forKey: UserPreferences.IS_LOGGED_IN)
+        dismiss(animated: true, completion: nil)
+    }
   }
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

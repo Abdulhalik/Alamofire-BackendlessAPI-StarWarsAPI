@@ -26,6 +26,7 @@
 		ED6B9787267E5C720089220D /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9786267E5C720089220D /* Starships.swift */; };
 		ED6B9789267E5CA20089220D /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B9788267E5CA20089220D /* MainTableViewController.swift */; };
 		ED6B978B267E5CE00089220D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B978A267E5CE00089220D /* DetailViewController.swift */; };
+		EDB072882684B152001B49A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB072872684B152001B49A7 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		ED6B9786267E5C720089220D /* Starships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
 		ED6B9788267E5CA20089220D /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		ED6B978A267E5CE00089220D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EDB072872684B152001B49A7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				ED6B9788267E5CA20089220D /* MainTableViewController.swift */,
 				ED6B978A267E5CE00089220D /* DetailViewController.swift */,
+				EDB072872684B152001B49A7 /* LoginViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				ED6B977B267E5BED0089220D /* Constants.swift in Sources */,
 				ED6B9787267E5C720089220D /* Starships.swift in Sources */,
 				ED6B974A267E4FE00089220D /* AppDelegate.swift in Sources */,
+				EDB072882684B152001B49A7 /* LoginViewController.swift in Sources */,
 				ED6B978B267E5CE00089220D /* DetailViewController.swift in Sources */,
 				ED6B977F267E5C240089220D /* Displayable.swift in Sources */,
 				ED6B974C267E4FE00089220D /* SceneDelegate.swift in Sources */,
